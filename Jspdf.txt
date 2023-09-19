@@ -1,0 +1,19 @@
+// Charger la bibliothèque jsPDF
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+
+// Fonction pour télécharger un fichier HTML au format PDF
+function downloadPdf() {
+  // Récupérer le contenu HTML à convertir en PDF
+  const html = document.getElementById('content').innerHTML;
+
+  // Créer un nouvel objet jsPDF
+  const pdf = new jsPDF();
+
+  // Ajouter le contenu HTML au PDF
+  pdf.html(html, {
+    callback: function () {
+      // Télécharger le fichier PDF
+      pdf.save('fichier.pdf');
+    }
+  });
+}

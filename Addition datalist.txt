@@ -1,0 +1,163 @@
+// cotonou
+if(ville == 'Cotonou' || villa == 'Cotonou'){
+    tarifs.style.color = 'red';
+    tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne' ;
+  }
+  else if(ville == 'Cotonou','cotonou' || villa == 'Porto-novo','porto-novo'){
+    tarifs.style.color = '#125aeb';
+    tarifs.innerHTML = prix1 ;
+  }
+  
+  else if(ville == 'Cotonou','cotonou' || villa == 'Bohicon','bohicon'){
+    tarifs.style.color = '#125aeb';
+    tarifs.innerHTML = prix2 ;
+  }
+  else if(ville == 'Cotonou','cotonou' || villa == 'Savalou','savalou'){
+    tarifs.style.color = '#125aeb';
+    tarifs.innerHTML = prix3 ;
+  }
+  else if(ville == 'Cotonou','cotonou' || villa == 'Dassa','dassa'){
+    tarifs.innerHTML = prix4 ;
+    tarifs.style.color = '#125aeb';
+  }
+  else if(ville == 'Cotonou','cotonou' || villa == 'Bassila','bassila'){
+    tarifs.style.color = '#125aeb';
+    tarifs.innerHTML = prix5 ;
+  }
+  else{
+    tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+    tarifs.style.color = 'red';
+  };
+
+//   // Porto-novo
+//   if( ville == 'Porto-novo','porto-novo' || villa == 'Porto-novo','porto-novo'){
+//     tarifs.style.color = 'red';
+//     tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne' ;
+//   }else if(ville == 'Porto-novo','porto-novo' || villa == 'Cotonou','cotonou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix1 ;
+//   }else if(ville == 'Porto-novo','porto-novo' || villa == 'Bohicon','bohicon'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix6 ;
+//   }else if(ville == 'Porto-novo','porto-novo' || villa == 'Savalou','savalou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix7 ;
+//   }else if(ville == 'Porto-novo','porto-novo' || villa == 'Dassa','dassa'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix8 ;
+//   }else if(ville == 'Porto-novo','porto-novo' || villa == 'Bassila','bassila'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix9 ;
+//   }else{
+//     tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+//     tarifs.style.color = 'red';
+//   };
+//   // Bohicon
+//   if( ville == 'Bohicon','bohicon' || villa == 'Bohicon','bohicon'){
+//     tarifs.style.color = 'red';
+//     tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne';
+//   }else if(ville == 'Bohicon','bohicon' || villa == 'Cotonou','cotonou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix2 ;
+//   }else if(ville == 'Bohicon','bohicon' || villa == 'Porto-novo','porto-novo'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix6 ;
+//   }else if(ville == 'Bohicon','bohicon' || villa == 'Savalou','savalou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix10 ;
+//   }else if(ville == 'Bohicon','bohicon' || villa == 'Dassa','dassa'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix11 ;
+//   }else if(ville == 'Bohicon','bohicon' || villa == 'Bassila','bassila'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix12 ;
+//   }else{
+//     tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+//     tarifs.style.color = 'red';
+//   };
+// // savalou
+// if( ville == 'Savalou','savalou'|| villa == 'Savalou','savalou'){
+//     tarifs.style.color = 'red';
+//     tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne' ;
+//   }
+//   else if(ville == 'Savalou','savalou' || villa == 'Cotonou','cotonou' ){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix3 ;
+//   }
+//   else if(ville == 'Savalou','savalou' || villa == 'Porto-novo','porto-novo'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix7 ;
+//   }
+//   else if(ville == 'Savalou','savalou' || villa == 'Bohicon','bohicon'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix10 ;
+//   }
+//   else if(ville == 'Savalou','savalou' || villa == 'Dassa','dassa'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix13 ;
+//   }
+//   else if(ville == 'Savalou','savalou' || villa == 'Bassila','bassila'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix14 ;
+//   }else{
+//     tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+//     tarifs.style.color = 'red';
+//   };
+//   // Dassa
+//   if( ville == 'Dassa','dassa'|| villa == 'Dassa','dassa'){
+//     tarifs.style.color = 'red';
+//     tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne' ;
+//   }
+//   else if(ville == 'Dassa','dassa' || villa == 'Cotonou','cotonou'){
+//     tarifs.innerHTML = prix4 ;
+//     tarifs.style.color = '#125aeb';
+//   }
+//   else if(ville == 'Dassa','dassa' || villa == 'Porto-novo','porto-novo'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix8 ;
+//   }
+//   else if(ville == 'Dassa','dassa' || villa == 'Bohicon','bohicon'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix11 ;
+//   }
+//   else if(ville == 'Dassa','dassa'|| villa == 'Savalou','savalou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix13 ;
+//   }
+//   else if(ville == 'Dassa','dassa'|| villa == 'Bassila','bassila'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix15 ;
+//   }
+//   else{
+//     tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+//     tarifs.style.color = 'red';
+//   };
+// //   Bassila
+// if( ville == 'Bassila','bassila'|| villa == 'Bassila','bassila'){
+//     tarifs.style.color = 'red';
+//     tarifs.innerHTML = 'Erreur fatale sélectionner une bonne ligne' ;
+//   }
+//   else if(ville == 'Bassila','bassila' || villa == 'Cotonou','cotonou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix5 ;
+//   }
+//   else if(ville == 'Bassila','bassila' || villa == 'Porto-novo','porto-novo'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix9 ;
+//   }
+//   else if(ville == 'Bassila','bassila' || villa == 'Bohicon','bohicon'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix12 ;
+//   }
+//   else if(ville == 'Bassila','bassila' || villa == 'Savalou','savalou'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix14 ;
+//   }
+//   else if(ville == 'Bassila','bassila' || villa == 'Dassa','dassa'){
+//     tarifs.style.color = '#125aeb';
+//     tarifs.innerHTML = prix15 ;
+//   }
+//   else{
+//     tarifs.innerHTML = 'Incorrect veuillez choisir une ligne';
+//     tarifs.style.color = 'red';
+//   };

@@ -1,0 +1,42 @@
+Pour intégrer l'API de Google Maps sur votre site web, vous pouvez suivre les étapes suivantes:
+
+1. Créez un compte Google et accédez à la console développeur Google Cloud Platform.
+2. Créez un nouveau projet et activez l'API Google Maps JavaScript.
+3. Générez une clé API pour votre projet en suivant les instructions de la console de développement.
+4. Ajoutez le code HTML suivant à votre page web:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma carte Google Maps</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLÉ_API"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var myLatLng = {lat: 48.8566, lng: 2.3522};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: myLatLng
+        });
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Paris'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLÉ_API&callback=initMap">
+    </script>
+  </body>
+</html>
+```
+
+5. Remplacez "VOTRE_CLÉ_API" par la clé API que vous avez générée précédemment.
+6. Personnalisez la carte en modifiant les options de la carte et les marqueurs selon vos besoins.
+7. Enregistrez votre page web et visualisez-la dans un navigateur pour voir la carte Google Maps intégrée.
+
+Notez que ce code crée une carte centrée sur Paris avec un marqueur indiquant la position de Paris. Vous pouvez personnaliser la carte en modifiant les options du constructeur de la carte et les options du marqueur. Vous pouvez également ajouter des couches de carte supplémentaires ou utiliser les services de géocodage ou de directions de l'API Google Maps pour créer une application de carte plus avancée.
